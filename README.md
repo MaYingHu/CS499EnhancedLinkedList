@@ -17,4 +17,3 @@ For the enhancements for my *CS-499: Computer Science Capstone* class, I impleme
 I removed the code from its original context (which included a *.csv* file and a parser which were provided to me for the project) because the purpose of the enhancements was to make the code more reusable.
 
 For the last method mentioned, I opted for a merge sort because its worst-case runtime is $\mathcal{O}\(n\log n\)$, it not being subject to pathological cases of the sort that reduce quicksort to $\mathcal{O}\(n^2\)$ time; and the sequential-access nature of linked lists means it is better suited to those applications than quicksort anyway. The enhancements resulted in code which is more modular and reusable and has removed the possibility of memory leaks which had not been addressed in the original.
-{% include mathjax.html %}
